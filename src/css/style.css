@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -14,10 +16,10 @@ nav {
     color: #fff;
     font-size: 30px;
     line-height: 60px;
-    padding-left: 300px;
     -webkit-animation: comming ease 2s;
     -o-animation: comming ease 2s;
     animation: comming ease 2s;
+    font-family: 'Open Sans', sans-serif;
 }
 
 main {
@@ -27,14 +29,13 @@ main {
 
 .menu {
     float: left;
-    padding-left: 700px;
-    margin-top: -60px;
+   
 
 }
 
 .menu li {
     float: left;
-    font-size: 16px;
+    font-size: 16x;
     color: white;
     line-height: 60px;
     margin-right: 40px;
@@ -49,6 +50,7 @@ main {
     transition: all 0.1s;
     color: white;
     display: inline-block;
+    text-decoration: none;
 }
 
 .menu li a:visited {
@@ -127,7 +129,7 @@ main {
 
     to {
         opacity: 1;
-        margin-left: 350px;
+        margin-left: 0px;
     }
 }
 
@@ -140,9 +142,9 @@ main {
 
 .title__container {
     float: left;
-    margin: 350px 0px 0px 350px;
     color: #2c384a;
     text-align: center;
+    width: 100%; 
     opacity: 0;
     -webkit-animation: titlemove 2.1s forwards;
     -o-animation: titlemove 2.1s forwards;
@@ -154,7 +156,8 @@ main {
 .title__container h1 {
     font-size: 60px;
     text-align: center;
-    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
 }
 
 .title__container h4 {
@@ -162,6 +165,11 @@ main {
     text-align: center;
     margin-top: 30px;
     font-size: 22px;
+}
+@media(max-width: 995px){
+    .title__container, .title__container h4{
+        color: white;
+    }
 }
 
 .title__container input {
@@ -697,4 +705,14 @@ main {
     text-align: center;
     line-height: 94px;
     color: white;
+}
+.custom_fa-arrows{
+    font-size: 40px;
+    color:blue;
+    
+}
+
+.custom-wifi{
+    font-size: 40px;
+    color:green;
 }
