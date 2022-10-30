@@ -42,19 +42,19 @@ let calculator = {
 }
 function getAnswers() {
 site = prompt("Привет! Какой тип сайта нужен? 1 - Сайт визитка 2 - Интернет-магазин");
-    if(site != 1 && site != 2 && site != 3){
+    if(site != 1 && site != 2){
         alert("Такого варианта нет...");
         getAnswers();
         return;
     }
 design = prompt("Давай определимся с дизайном... 1 - Шаблон 2 - Уникальный");
-      if(design != 1 && design != 2 && design != 3){
+      if(design != 1 && design != 2){
         alert("Такого варианта нет...");
         getAnswers();
         return;
     }
 adaptive = prompt("А теперь с адаптивностью... 1 - Только ПК 2 - ПК + Мобильная");
-      if(adaptive != 1 && adaptive != 2 && adaptive != 3){
+      if(adaptive != 1 && adaptive != 2){
         alert("Такого варианта нет...");
         getAnswers();
         return;
